@@ -139,7 +139,7 @@
         }
       }
     }
-    return value.split("").replace(/([A-Z])/g, "$1\u0305");
+    return value.join("").replace(/([A-Z])/g, "$1\u0305");
   };
 
   if (typeof jQuery == "function") {
